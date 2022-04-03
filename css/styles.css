@@ -1,0 +1,205 @@
+:root {
+/*fonts*/
+    --font-family: 'Roboto', sans-serif;
+    --font-logo: 'Raleway', sans-serif;
+/*colors*/
+    --accent-color: #2196F3;
+    --main-dark: #000000;
+    --main-dark-secondary: #FFFFFF99;
+    --main-light: #FFFFFF;
+    --main-primary: #212121;
+    --main-secondary: #757575;
+
+}
+
+.body {
+    font-family: var(--font-family);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    /* color: inherit; */
+}
+
+
+/*===========================COMPONENTS=========================== */
+
+/*===========================COMPONENTS=========================== */
+
+/*===========================HEADER==============================*/ 
+
+.logo {
+    font-family: var(--font-logo);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--main-dark);
+}
+
+.web {
+    color: var(--accent-color);
+}
+
+.menu-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:var(--main-primary);
+}
+
+ .menu-link:hover,
+ .menu-link:focus {
+    color: var(--accent-color);
+ }
+
+.header-email, .header-tel {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--main-secondary);
+    
+}
+.header-email:hover, .header-tel:hover,
+.header-email:focus, .header-tel:focus {
+    color: var(--accent-color);
+}
+/*===========================HEADER==============================*/
+/*============================HERO===============================*/
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--main-dark);
+/*color: var(--main-light);*/
+}
+
+
+.modal-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--main-light);
+    background-color: var(--accent-color);
+    cursor: pointer;
+
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+    color: var(--main-dark);
+    background-color: inherit;
+
+}
+
+/*============================HERO================================*/
+/*=========================DESCRIPTION============================*/
+ .description-title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--main-primary);
+ }
+
+ .description-text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--main-secondary);
+ }
+/*==========================DESCRIPTION ============================*/
+/*=============================WORK=================================*/
+.work-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-primary);
+}
+
+.work-list {
+    column-count: 3;
+}
+
+/*================================WORK================================*/
+/*================================TEAM================================*/
+.team-title {
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.16;
+    color: var(--main-primary);
+    letter-spacing: 0.03em;
+}
+
+.team-employees {
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.18;
+    color: var(--main-primary);
+    letter-spacing: 0.03em;
+}
+
+.team-position {
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 1.18;
+    color: var(--main-secondary);
+    letter-spacing: 0.03em;
+}
+
+.team-list {
+    text-indent: 40px;
+    column-count: 4;
+}
+/*=================================TEAM===============================*/
+/*================================FOOTER==============================*/
+.contact-info-list-link {
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    line-height: 1.71;
+    color: var(--main-dark);
+/* color: var(--main-dark-secondary); */
+}
+
+/*=================================FOOTER===============================*/
+/*======================================================================*/
+/* ===============================PORTFOLIO=============================*/
+.menu-btn {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--main-primary);
+    background-color: #F5F4FA;
+    cursor: pointer;
+
+}
+
+.menu-btn:hover,
+.menu-btn:focus {
+    color: var(--main-light);
+    background-color: var(--accent-color);
+
+}
